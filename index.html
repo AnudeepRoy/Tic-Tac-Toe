@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+</head>
+<body>
+	<div class="outer-wrap">
+		<div class="container">
+			<div class="empt"></div>
+			<h1>Tic Tac Toe</h1>
+			<div class="empt"></div>
+			<div class="game-wrapper">
+				<div class='tile' id='sq1' onclick="addTile(1)"></div>
+				<div class='tile' id='sq2' onclick="addTile(2)"></div>
+				<div class='tile' id='sq3' onclick="addTile(3)"></div>
+				<div class='tile' id='sq4' onclick="addTile(4)"></div>
+				<div class='tile' id='sq5' onclick="addTile(5)"></div>
+				<div class='tile' id='sq6' onclick="addTile(6)"></div>
+				<div class='tile' id='sq7' onclick="addTile(7)"></div>
+				<div class='tile' id='sq8' onclick="addTile(8)"></div>
+				<div class='tile' id='sq9' onclick="addTile(9)"></div>
+			</div>
+			<div class="empt"></div>
+			<div class="new-game">
+				<button class="btn btn-light btn-lg" onclick="location.reload()">Start a new game</button>
+			</div>
+		</div><!--End of container -->
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
